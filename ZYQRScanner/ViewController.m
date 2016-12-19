@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ScanViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)start:(id)sender {
+    ScanViewController *scan = [[ScanViewController alloc] init];
+    [self.navigationController pushViewController:scan animated:YES];
+    
 }
 
 

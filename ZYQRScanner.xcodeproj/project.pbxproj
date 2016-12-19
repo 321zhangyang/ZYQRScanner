@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52199C3F1E077D4700783965 /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52199C3D1E077D4700783965 /* ShowViewController.m */; };
+		52199C401E077D4700783965 /* ShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52199C3E1E077D4700783965 /* ShowViewController.xib */; };
+		52199C431E07825F00783965 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52199C421E07825F00783965 /* ScanViewController.m */; };
+		52199C591E07861800783965 /* QRCScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 52199C461E07861800783965 /* QRCScanner.m */; };
+		52199C631E07890C00783965 /* 1482117500.png in Resources */ = {isa = PBXBuildFile; fileRef = 52199C621E07890C00783965 /* 1482117500.png */; };
 		523BF5EC1E03845300C1A5DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 523BF5EB1E03845300C1A5DC /* main.m */; };
 		523BF5EF1E03845300C1A5DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 523BF5EE1E03845300C1A5DC /* AppDelegate.m */; };
 		523BF5F21E03845300C1A5DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523BF5F11E03845300C1A5DC /* ViewController.m */; };
@@ -15,6 +20,15 @@
 		523BF5FA1E03845300C1A5DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523BF5F81E03845300C1A5DC /* LaunchScreen.storyboard */; };
 		523BF6051E03845300C1A5DC /* ZYQRScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 523BF6041E03845300C1A5DC /* ZYQRScannerTests.m */; };
 		523BF6101E03845300C1A5DC /* ZYQRScannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 523BF60F1E03845300C1A5DC /* ZYQRScannerUITests.m */; };
+		523BF6201E0384C200C1A5DC /* ZYQRScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 523BF61F1E0384C200C1A5DC /* ZYQRScanner.m */; };
+		523BF6331E03851300C1A5DC /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 523BF6231E03851300C1A5DC /* bitstream.c */; };
+		523BF6341E03851300C1A5DC /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 523BF6251E03851300C1A5DC /* mask.c */; };
+		523BF6351E03851300C1A5DC /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 523BF6271E03851300C1A5DC /* qrencode.c */; };
+		523BF6361E03851300C1A5DC /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 523BF6291E03851300C1A5DC /* qrinput.c */; };
+		523BF6371E03851300C1A5DC /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 523BF62B1E03851300C1A5DC /* qrspec.c */; };
+		523BF6381E03851300C1A5DC /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 523BF62D1E03851300C1A5DC /* rscode.c */; };
+		523BF6391E03851300C1A5DC /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 523BF62F1E03851300C1A5DC /* split.c */; };
+		523BF63A1E03851300C1A5DC /* UIImage+MDQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 523BF6321E03851300C1A5DC /* UIImage+MDQRCode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52199C3C1E077D4700783965 /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		52199C3D1E077D4700783965 /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
+		52199C3E1E077D4700783965 /* ShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowViewController.xib; sourceTree = "<group>"; };
+		52199C411E07825F00783965 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		52199C421E07825F00783965 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		52199C451E07861800783965 /* QRCScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCScanner.h; sourceTree = "<group>"; };
+		52199C461E07861800783965 /* QRCScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCScanner.m; sourceTree = "<group>"; };
+		52199C621E07890C00783965 /* 1482117500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1482117500.png; sourceTree = "<group>"; };
 		523BF5E71E03845300C1A5DC /* ZYQRScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYQRScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		523BF5EB1E03845300C1A5DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		523BF5ED1E03845300C1A5DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +73,24 @@
 		523BF60B1E03845300C1A5DC /* ZYQRScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYQRScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		523BF60F1E03845300C1A5DC /* ZYQRScannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQRScannerUITests.m; sourceTree = "<group>"; };
 		523BF6111E03845300C1A5DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523BF61E1E0384C200C1A5DC /* ZYQRScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQRScanner.h; sourceTree = "<group>"; };
+		523BF61F1E0384C200C1A5DC /* ZYQRScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQRScanner.m; sourceTree = "<group>"; };
+		523BF6231E03851300C1A5DC /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		523BF6241E03851300C1A5DC /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		523BF6251E03851300C1A5DC /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
+		523BF6261E03851300C1A5DC /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
+		523BF6271E03851300C1A5DC /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
+		523BF6281E03851300C1A5DC /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
+		523BF6291E03851300C1A5DC /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
+		523BF62A1E03851300C1A5DC /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
+		523BF62B1E03851300C1A5DC /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrspec.c; sourceTree = "<group>"; };
+		523BF62C1E03851300C1A5DC /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
+		523BF62D1E03851300C1A5DC /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
+		523BF62E1E03851300C1A5DC /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
+		523BF62F1E03851300C1A5DC /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
+		523BF6301E03851300C1A5DC /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		523BF6311E03851300C1A5DC /* UIImage+MDQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MDQRCode.h"; sourceTree = "<group>"; };
+		523BF6321E03851300C1A5DC /* UIImage+MDQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MDQRCode.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +118,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52199C441E07861800783965 /* QRCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				52199C451E07861800783965 /* QRCScanner.h */,
+				52199C461E07861800783965 /* QRCScanner.m */,
+			);
+			path = QRCodeScanner;
+			sourceTree = "<group>";
+		};
 		523BF5DE1E03845300C1A5DC = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +150,18 @@
 		523BF5E91E03845300C1A5DC /* ZYQRScanner */ = {
 			isa = PBXGroup;
 			children = (
+				523BF61D1E03846000C1A5DC /* ZYQRScanner */,
 				523BF5ED1E03845300C1A5DC /* AppDelegate.h */,
 				523BF5EE1E03845300C1A5DC /* AppDelegate.m */,
 				523BF5F01E03845300C1A5DC /* ViewController.h */,
 				523BF5F11E03845300C1A5DC /* ViewController.m */,
+				52199C411E07825F00783965 /* ScanViewController.h */,
+				52199C421E07825F00783965 /* ScanViewController.m */,
+				52199C3C1E077D4700783965 /* ShowViewController.h */,
+				52199C3D1E077D4700783965 /* ShowViewController.m */,
+				52199C3E1E077D4700783965 /* ShowViewController.xib */,
+				52199C621E07890C00783965 /* 1482117500.png */,
+				52199C441E07861800783965 /* QRCodeScanner */,
 				523BF5F31E03845300C1A5DC /* Main.storyboard */,
 				523BF5F61E03845300C1A5DC /* Assets.xcassets */,
 				523BF5F81E03845300C1A5DC /* LaunchScreen.storyboard */,
@@ -138,6 +195,47 @@
 				523BF6111E03845300C1A5DC /* Info.plist */,
 			);
 			path = ZYQRScannerUITests;
+			sourceTree = "<group>";
+		};
+		523BF61D1E03846000C1A5DC /* ZYQRScanner */ = {
+			isa = PBXGroup;
+			children = (
+				523BF61E1E0384C200C1A5DC /* ZYQRScanner.h */,
+				523BF61F1E0384C200C1A5DC /* ZYQRScanner.m */,
+				523BF6211E03851300C1A5DC /* resource */,
+			);
+			name = ZYQRScanner;
+			sourceTree = "<group>";
+		};
+		523BF6211E03851300C1A5DC /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				523BF6221E03851300C1A5DC /* libqrencode */,
+				523BF6311E03851300C1A5DC /* UIImage+MDQRCode.h */,
+				523BF6321E03851300C1A5DC /* UIImage+MDQRCode.m */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		523BF6221E03851300C1A5DC /* libqrencode */ = {
+			isa = PBXGroup;
+			children = (
+				523BF6231E03851300C1A5DC /* bitstream.c */,
+				523BF6241E03851300C1A5DC /* bitstream.h */,
+				523BF6251E03851300C1A5DC /* mask.c */,
+				523BF6261E03851300C1A5DC /* mask.h */,
+				523BF6271E03851300C1A5DC /* qrencode.c */,
+				523BF6281E03851300C1A5DC /* qrencode.h */,
+				523BF6291E03851300C1A5DC /* qrinput.c */,
+				523BF62A1E03851300C1A5DC /* qrinput.h */,
+				523BF62B1E03851300C1A5DC /* qrspec.c */,
+				523BF62C1E03851300C1A5DC /* qrspec.h */,
+				523BF62D1E03851300C1A5DC /* rscode.c */,
+				523BF62E1E03851300C1A5DC /* rscode.h */,
+				523BF62F1E03851300C1A5DC /* split.c */,
+				523BF6301E03851300C1A5DC /* split.h */,
+			);
+			path = libqrencode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +305,7 @@
 				TargetAttributes = {
 					523BF5E61E03845300C1A5DC = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XE9KC2Z65Q;
 						ProvisioningStyle = Automatic;
 					};
 					523BF5FF1E03845300C1A5DC = {
@@ -247,8 +346,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				523BF5FA1E03845300C1A5DC /* LaunchScreen.storyboard in Resources */,
+				52199C631E07890C00783965 /* 1482117500.png in Resources */,
 				523BF5F71E03845300C1A5DC /* Assets.xcassets in Resources */,
 				523BF5F51E03845300C1A5DC /* Main.storyboard in Resources */,
+				52199C401E077D4700783965 /* ShowViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +374,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523BF63A1E03851300C1A5DC /* UIImage+MDQRCode.m in Sources */,
+				523BF6201E0384C200C1A5DC /* ZYQRScanner.m in Sources */,
+				523BF6371E03851300C1A5DC /* qrspec.c in Sources */,
+				523BF6331E03851300C1A5DC /* bitstream.c in Sources */,
+				523BF6381E03851300C1A5DC /* rscode.c in Sources */,
 				523BF5F21E03845300C1A5DC /* ViewController.m in Sources */,
+				523BF6341E03851300C1A5DC /* mask.c in Sources */,
+				523BF6351E03851300C1A5DC /* qrencode.c in Sources */,
+				52199C591E07861800783965 /* QRCScanner.m in Sources */,
+				523BF6361E03851300C1A5DC /* qrinput.c in Sources */,
+				523BF6391E03851300C1A5DC /* split.c in Sources */,
 				523BF5EF1E03845300C1A5DC /* AppDelegate.m in Sources */,
+				52199C431E07825F00783965 /* ScanViewController.m in Sources */,
+				52199C3F1E077D4700783965 /* ShowViewController.m in Sources */,
 				523BF5EC1E03845300C1A5DC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,7 +537,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XE9KC2Z65Q;
 				INFOPLIST_FILE = ZYQRScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-1.ZYQRScanner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +550,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XE9KC2Z65Q;
 				INFOPLIST_FILE = ZYQRScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-1.ZYQRScanner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +624,7 @@
 				523BF6161E03845300C1A5DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		523BF6171E03845300C1A5DC /* Build configuration list for PBXNativeTarget "ZYQRScannerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +633,7 @@
 				523BF6191E03845300C1A5DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		523BF61A1E03845300C1A5DC /* Build configuration list for PBXNativeTarget "ZYQRScannerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +642,7 @@
 				523BF61C1E03845300C1A5DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
